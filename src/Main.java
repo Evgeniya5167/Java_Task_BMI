@@ -4,7 +4,7 @@ public class Main {
         BmiService service = new BmiService();
         double weight = 68;
         double hight = 1.6;
-        double BodyMassIndex = service.calculate(weight, hight);
-        System.out.println(BodyMassIndex);
+        double bodyMassIndex = service.calculate(weight, hight);
+        System.out.println(bodyMassIndex);
     }
 }
